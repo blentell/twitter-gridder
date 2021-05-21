@@ -1,0 +1,136 @@
+.main {
+	border: 1px solid red;
+	width: 664px;
+	height: 600px;
+	display: grid;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 64px 400px 64px 100px;
+	grid-template-rows: 100px 125px 64px 172px 64px;
+	grid-template-areas:
+		"arrow title title title"
+		"headerpic headerpic headerpic headerpic"
+		"avatar avatar dots follow"
+		"tweet tweet tweet tweet"
+		"footer footer footer footer";
+}
+
+.arrowpic {
+	width: 64px;
+	height: 64px;
+}
+
+.arrow {
+	grid-area: arrow;
+}
+
+.title {
+	grid-area: title;
+	width: 200px;
+	height: 100px;
+	font-size: 16px;
+}
+
+p {
+	margin-top: -20px;
+}
+
+.checkmark {
+	grid-area: checkmark;
+}
+.verified {
+	height: 32px;
+	width: 32px;
+}
+
+.tweets {
+	grid-area: tweets;
+	width: 100px;
+	height: 32px;
+	font-size: 16px;
+}
+.picture {
+	grid-area: headerpic;
+}
+.headerpic {
+	width: 664px;
+	height: 120px;
+}
+
+.avatar {
+	grid-area: avatar;
+}
+.avatarpic {
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+}
+
+.dotsPic {
+	height: 5px;
+	width: 10px;
+	border-radius: 64px;
+	border: 1px solid blue;
+	padding: 16px;
+}
+
+.dots {
+	grid-area: dots;
+}
+
+.tweet {
+	grid-area: tweet;
+}
+
+.follow {
+	grid-area: follow;
+	border: 1px solid blue;
+	border-radius: 64px;
+	height: 8px;
+	width: 64px;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	grid-area: footer;
+}
+/* .footer1 {
+	grid-area: footer1;
+	}
+
+.footer2 {
+	grid-area: footer2;
+}
+
+.footer3 {
+	grid-area: footer3;
+}
+
+.footer4 {
+	grid-area: footer4;
+} */
+
+.home {
+	width: 64px;
+	height: 64px;
+}
+
+.bell {
+	width: 64px;
+	height: 64px;
+}
+
+.search {
+	width: 64px;
+	height: 64px;
+}
+
+.dm {
+	width: 64px;
+	height: 64px;
+}
